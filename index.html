@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="CSS/styles.css">
+
+        <title>Encriptador de texto</title>
+
+        <script src="javascript/javascript.js"></script>
+    </head>
+
+    <body onload="enfocar_texto()">
+        <header>
+            <img src="./images/header.png" alt="">
+        </header>
+        <main id="contenedor">
+            <section class="contenido">
+                <img src="./images/texto1.png" alt="">
+                <img src="./images/flecha.png" alt="">
+                <form>
+                    <div id="fondo_texto">
+                        <textarea rows="10" cols="22" id="texto" placeholder="<"></textarea>
+                    </div>
+                </form>
+            </section>
+            <section id="botones" class="contenido">
+                <img onclick="encriptar()" alt="" src="images/en_button.png" class="boton">
+                <img onclick="desencriptar()" alt="" src="images/des_button.png" class="boton">
+            </section>
+            <section class="contenido">
+                <img onclick="portapapeles()" alt="" src="images/cp_button.png" class="boton">
+                <img src="./images/flecha.png" alt="">
+                <div id="fondo_resultado"><div id="resultado"></div></div>
+            </section>
+        </main>
+        <footer id="botones2">
+            <img onclick="encriptar()" alt="" src="images/en_button.png" class="boton"><img onclick="desencriptar()" alt="" src="images/des_button.png" class="boton">
+        </footer>
+    </body>
+</html>

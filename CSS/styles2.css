@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+}
+
+main{
+    position:relative;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.contenedor{
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contenedor li{
+    position: relative;
+    display:inline-block;
+    vertical-align:middle;
+
+    text-align:center;
+    width: 300px;
+    margin: 0 0.5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
