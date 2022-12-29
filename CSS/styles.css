@@ -8,7 +8,7 @@ body{
     background-image: linear-gradient(
     to bottom,
     rgba(247, 247, 247, 0.705),
-    rgba(0, 0, 0, 0.185)
+    rgba(28, 90, 170, 0.425)
     ), url("../images/background4.jpg");
     /*background-size:cover;*/
     background-size: 1500px;
@@ -20,10 +20,18 @@ body{
     margin: auto;
 }
 
+.oracle{
+    position: fixed;
+    font-size: calc(2vw + 2px);
+    left: calc(2vw + 10px);
+    top: 1vh;
+    filter: opacity(50%);
+}
+
 .logo{
     position: fixed;
-    left: 2vw;
-    top: 3vh;
+    left: calc(2vw + 15px);
+    top: calc(2vw + 10px);
     width: 8vw;
     filter: opacity(70%);
 }
@@ -137,6 +145,14 @@ header{
     justify-content: center;
     margin: auto;
     position: relative;
+}
+
+footer{
+    position: fixed;
+    transform: rotate(-90deg);
+    left: -50px;
+    /*top: calc(5vw+50px);*/
+    filter: opacity(70%);
 }
 
 @media (min-width: 1050px)  { /* Pantalla y vertical */
