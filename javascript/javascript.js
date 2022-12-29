@@ -35,7 +35,7 @@ function encriptar() {
         resultado.innerText = texto_encriptado;
     }
     else {
-        alert("ingrese algun texto");
+        alert("ingrese algún texto");
         texto.focus();
     }
 }
@@ -85,7 +85,7 @@ function desencriptar() {
         resultado.innerText = texto_desencriptado;
     }
     else {
-        alert("ingrese algun texto");
+        alert("ingrese algún texto");
         texto.focus();
     }
 }
