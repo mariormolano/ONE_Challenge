@@ -146,14 +146,6 @@ header{
     position: relative;
 }
 
-footer{
-    position: fixed;
-    transform: rotate(-90deg);
-    left: -50px;
-    /*top: calc(5vw+50px);*/
-    filter: opacity(70%);
-}
-
 @media (min-width: 1050px)  { /* Pantalla y vertical */
     #contenedor{
         max-width: 1050px;
