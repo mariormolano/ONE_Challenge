@@ -42,6 +42,11 @@ img{
     filter: drop-shadow(2px 2px 2px #222);
 }
 
+
+textarea{
+    text-transform:lowercase;
+}
+
 #botones img{
     padding: 10px 0px;
 }
