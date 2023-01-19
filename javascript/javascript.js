@@ -1,5 +1,3 @@
-
-
 function enfocar_texto(){
     var texto = document.getElementById("texto");
     texto.focus();
