@@ -1,9 +1,9 @@
+
+
 function enfocar_texto(){
     var texto = document.getElementById("texto");
     texto.focus();
 }
-
-
 
 function encriptar() {
     var texto = document.getElementById("texto");
@@ -50,33 +50,33 @@ function desencriptar() {
             switch(texto.value.substring(i-1,i).toLowerCase()) {
                 case "e" :
                     if (texto.value.substring(i-1,i+4) == "enter"){
-                        texto_desencriptado = texto_desencriptado + "e";
                         i = i + 4;
                     }
-                break;
+                    texto_desencriptado = texto_desencriptado + "e";
+                    break;
                 case "i" :
                     if (texto.value.substring(i-1,i+3) == "imes"){
-                        texto_desencriptado = texto_desencriptado + "i";
                         i = i + 3;
                     }
+                    texto_desencriptado = texto_desencriptado + "i";
                 break;
                 case "a" :
                     if (texto.value.substring(i-1,i+1) == "ai"){
-                        texto_desencriptado = texto_desencriptado + "a";
                         i = i + 1;
                     }
+                    texto_desencriptado = texto_desencriptado + "a";
                 break;
                 case "o" :
                     if (texto.value.substring(i-1,i+3) == "ober"){
-                        texto_desencriptado = texto_desencriptado + "o";
                         i = i + 3;
                     }
+                    texto_desencriptado = texto_desencriptado + "o";
                 break;
                 case "u" :
                     if (texto.value.substring(i-1,i+3) == "ufat"){
-                        texto_desencriptado = texto_desencriptado + "u";
                         i = i + 3;
                     }
+                    texto_desencriptado = texto_desencriptado + "u";
                 break;
                 default:
                     texto_desencriptado = texto_desencriptado + texto.value.substring(i-1,i);
